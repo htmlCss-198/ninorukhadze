@@ -1,0 +1,46 @@
+body {
+    background-color:cadetblue ;
+}
+
+#satauri {
+color:  rgb(165, 233, 165);
+  text-align: center;
+}
+.image {
+    display: flex;
+    justify-content: space-evenly;
+}
+.item1 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: rgb(165, 233, 165);
+}
+.item2 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: rgb(165, 233, 165);
+}
+.item3 {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    color: rgb(165, 233, 165);
+}
+.A {
+    color:  rgb(165, 233, 165);
+}
+table, th, td {
+    border: 1px dashed  rgb(165, 233, 165);
+    
+}
+th {
+   color:darkred; 
+}
+tr {
+    color: rgb(21, 59, 59);
+}
+.C {
+    color:rgb(165, 233, 165)
+}
