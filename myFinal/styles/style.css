@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+* {
+ font-family: "Caveat", cursive;
+}
+body {
+    margin: 0;
+   background-color: black;
+}
+
+.logo {
+display: flex;
+height: 55px;
+width: 55px;
+}
+.logo p {
+   font-size: 10px;
+   color: #DEDEDE;
+   margin-top: 60%;
+}
+.navLinks {
+   display: flex;
+   justify-content: space-between;
+   width: 500px;
+   align-items: center;
+}
+nav {
+   display: flex;
+   justify-content: space-between;
+   width: 100%;
+   background-color:rgb(31, 85, 88);
+}
+
+header {
+   display: flex;
+   justify-content: center;
+   background-color: #000000;
+   opacity: 0.7;
+}
+
+.navLinks a {
+   font-size: 18px;
+   text-decoration: none;
+   color: #DEDEDE;
+}
+.satauri {
+   font-size: 40px;
+   color: rgb(31, 85, 88);
+   text-shadow: rgb(14, 55, 58) 5px 4px;
+   display: inline-flex ;
+}
+
+.flexcontainer{
+   text-align: center;
+  height: 50%;
+}
+.flexcontainer > div {
+   background-color: rebeccapurple;
+   color: #000000;
+   margin: 10px;
+   padding: 20px;
+   font-size: 30px;
+   margin-right: 15%;
+}
+.text1 {
+   font-size: 24px;
+   line-height: 36px;
+   color: rgb(31, 85, 88);
+}
+.home {
+ text-align: center;
+}
+.signuplink a {
+ text-decoration: none;
+ background-color: rgb(31, 85, 88);
+ border-radius:  10px;
+
+}
+
+.container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap:70px;
+   margin-left: 50px;
+   margin-top: 200px;
+}
+
+
+.firstletter {
+   font-size: 70px;
+   color: rgb(88, 31, 68);
+   text-shadow: rgb(31, 85, 88) 5px 4px;;
+}    
+.text2 {
+   color: rgb(31, 85, 88);
+   font-size: 35px;
+   text-shadow:  rgb(88, 31, 68) 4px 3px;
+}    
+.satauri2 {
+   color:rgb(31, 85, 88);
+   font-size: 35px;
+   text-shadow: rgb(14, 55, 58) 5px 4px;
+}
+.text3 {
+   color: rgb(31, 85, 88);
+   font-size: 30px;
+   text-shadow: rgb(88, 31, 68) 4px 4px;
+}
+.tips {
+   display: flex;
+   align-items: center;
+   margin-right: 100px;
+}
+.flexcontainer{
+   color: rgb(31, 85, 88);
+   display: flex;
+   flex-wrap: nowrap;
+   width: 100px;
+   margin: 10px;
+   text-align: center;
+   line-height: 75px;
+   font-size: 30px;
+}
+.signup {
+   color: black;
+   text-shadow: rgb(31, 85, 88) 4px 4px;
+   text-align: center;
+   font-size: 50px;
+}
+ .signupform {
+   text-align: center;
+   border-radius: 30px;
+   border: 2px dotted rgb(31, 85, 88);
+   padding: 100px;
+   width: 1000px;
+   margin-left: 120px;
+ }
+ button:hover {
+   background-color: rgb(88, 31, 68);
+   cursor: pointer;
+ }
+ .Remember {
+  color: rgb(31, 85, 88);
+  margin-right: 300px;
+}
+.conText{
+   font-size: 30px;
+   text-shadow:rgb(255, 255, 255) 2px 2px;
+   color: rgb(77, 74, 74);
+    text-align: center;
+}
+.context2 {
+    text-align: center;
+   color: rgb(77, 74, 74);
+   text-shadow: rgb(255, 255, 255) 2px 2px;
+   font-size: 40px;
+}
+.conUsbg {
+   align-items: center;
+   margin: 0%;
+   height: 50px;
+   display:flex;
+   justify-content: center
+}
+.icon1 {
+   color: rgb(77, 74, 74);
+   position: absolute;
+   left: 45%;
+   bottom: 50px;
+   font-size: 30px;
+}
+.icon2 {
+   color: rgb(77, 74, 74);
+   position: absolute;
+   left: 45%;
+   bottom: 50px;
+   font-size: 30px;
+}
+.icon3 {
+   color: rgb(77, 74, 74);
+   position: absolute;
+   left: 45%;
+   bottom: 50px;
+   font-size: 30px;
+}
+.icon4 {
+   color: rgb(77, 74, 74);
+   position: absolute;
+   left: 45%;
+   bottom: 50px;
+   font-size: 30px;
+}
+
+.address {
+   top: 70%;
+   position: absolute;
+   font-size: 20px;
+   color: rgb(77, 74, 74);
+}
+
+.phone {
+   top: 70%;
+   left: 30%;
+   position: absolute;
+   font-size: 20px;
+   color: rgb(77, 74, 74); 
+}
+.emailus {
+   position: absolute;
+    top:80%;
+    left: 33%;
+   font-size: 20px;
+   color: rgb(77, 74, 74);
+}
+.time{
+   top:80%;
+   position: absolute;
+   font-size: 20px;
+   color: rgb(77, 74, 74);
+}
+.logo2 {
+   display: flex;
+   height: 55px;
+   width: 55px;
+}
+.footerinput{
+   margin-right: 70%;
+   margin-top: 20px;
+}
+.socialmedia {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   grid-gap: 25px;
+}
+footer {
+   display: flex;
+   justify-content: space-between;
+   background-color:rgb(31, 85, 88);
+}
+.conusInput {
+   margin-left: 60%;
+   margin-top: 20%;
+   font-size: 25px;
+   color: rgb(77, 74, 74);
+}
+.abusU {
+   color: white;
+   text-shadow: gray 4px 2px;
+    font-size: 60px;
+    margin-left: 10%;
+}
+.abusText {
+   color: white;
+   text-shadow: gray 4px 2px;
+    font-size: 40px;
+    justify-content: space-between;
+    width:1000px;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 10%;
+}
+.abusBG {
+ position: absolute;
+ left: 900px;
+ top: 100px;
+}
+.abusText2 {
+color: white;
+font-size: 20px; 
+text-align: center;
+border: dotted;
+margin-left:40%;
+}
+.abusbg2 {
+ position: absolute;
+ top: 50%;
+ right: 65%;
+}
+.ourwork {
+ color: white;
+ text-align: center;
+}
+.container2 {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap:70px;
+   margin-left: 50px;
+}
+.abacademy{
+  color: white;
+  text-align: center;
+}
+.improve {
+color: white;
+text-align: center;
+font-size: 30px;
+border: dotted;
+border-color: rgb(88, 31, 68);
+width: 500px;
+margin-left: 32%;
+}
+.joincommunity {
+ color: white;
+ text-align: center;
+ font-size: 30px;
+ border: dotted;
+ border-color: rgb(31, 85, 88);
+ width: 500px;
+}
+.win {
+   color: white;
+   text-align: center;
+   font-size: 30px;
+   border: dotted;
+   border-color: rgb(77, 74, 74);
+   width: 500px;
+   margin-left: 60%;
+   position: absolute;
+   top: 2700px;
+}
+.award-winning {
+color: white;
+text-align: center;
+font-size: 30px;
+}
+#link1:active {
+   color: pink;
+}
+#animation {
+   width: 300px;
+   height: 50px;
+   background-color: pink;
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   text-align: center;
+ }
+@keyframes example {
+0%   {background-color:rgb(73, 3, 3); left:0px; top:0px;}
+25%  {background-color:pink; left:300px; top:0px;}
+50%  {background-color:rgb(31, 85, 88); left:700px; top:0px;}
+75%  {background-color:rgb(88, 31, 68); left:1100px; top:0px;}
+100% {background-color:rgb(106, 58, 58); left:0px; top:0px;}
+}
+.joinanimation {
+   font-size: 40px;
+   color: lightpink;
+}
+
+.infocontainer {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap:20px;
+   margin-left: 100px;
+   margin-top: 70%;
+}
+.animation1 {
+   width: 200px;
+   height: 50px;
+   background-color: rgb(118, 69, 69);
+   position: relative;
+   animation-name: example;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   text-align: center;
+   font-size: 30px;
+   margin-top: 20px;
+ }
+ 
+ @keyframes example {
+   0%   {background-color:rgb(90, 47, 47); left:300px; top:0px;}
+   25%  {background-color:rgb(147, 147, 106); left:500px; top:0px;}
+   50%  {background-color:rgb(10, 10, 33); left:700px; top:0px;}
+   75%  {background-color:rgb(63, 96, 63); left:1000px; top:0px;}
+   100% {background-color:rgb(44, 67, 83); left:0px; top:0px;}
+ }
+ .infotext1{
+   color:rgb(81, 11, 11);
+   text-shadow: rgb(44, 67, 83) 2px 2px;
+   position: absolute;
+   top: 700px;
+   font-size: 40px;
+   border: double;
+   text-align: center;
+ }
+ 
+ 

@@ -1,0 +1,114 @@
+<html>
+<head>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .slider {
+        overflow: hidden;
+    }
+    .slider figure {
+        position: absolute;
+        width: 500%;
+        margin: 0;
+        left: 0;
+        animation: 8s slider infinite;
+    }
+    .slider figure img {
+        float: left;
+        width: 20%;
+        height: 70%;
+    }
+    @keyframes slider {
+    0% {
+        left: 0%;
+    }
+     20% {
+        left: 0%;
+     }
+     25%{
+        left: -100%;
+     }
+     45% {
+        left: -100%;
+     }
+     50% {
+        left:-200%;
+     }
+     70%{
+        left:-200%;
+     }
+     75%{
+        left: -300%;
+     }
+     95%{
+        left:-300% ;
+     }
+     100%{
+        left: 0%;
+     }
+
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+             <img src="./images/logo.png">
+             <p>photography</p>
+            </div>
+            <div class="navLinks">
+             <a href="./Home.html">Home</a>
+             <a href="./Aboutus.html">About us</a>
+             <a href="./Contactus.html">Contact us</a>
+             <a href="Moreinfo.html">More info</a>
+             <a href="signup.html">Sign up</a>
+            </div>
+             </nav>
+    </header>
+    <main>
+        <div class="slider">
+            <figure>
+                <img src="./images/ 1.jpg">
+                
+                <img src="./images/ 2.jpg" >
+                
+                <img src="./images/3.jpg" >
+                
+                <img src="./images/4.jpg" >
+            </figure>
+          <div class="animation1">More information</div>
+        <div class="infotext1">
+            <p>If you are just starting out in photography and you don't know where to begin, or perhaps you have been taking pictures with your camera for a while and want to improve your shooting skills, you’ve come to the right place. The material compiled in this article will not only help you in building up your photography knowledge, but also assist in advancing you to the next level. On this page, you will find the most valuable articles and techniques we have written to help you grow as a photographer, from basic photography articles for beginners all the way to more advanced techniques and tutorials.
+                
+            </p>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="infocontainer">
+            <img src="./images/info1.jpg"  height="300px" width="200px">
+            <img src="./images/info2.jpg"  height="300px" width="200px">
+            <img src="./images/info3.jpg"  height="300px" width="200px">
+            <img src="./images/info4.jpg"  height="300px" width="200px">
+            <img src="./images/info5.jpg"  height="300px" width="200px">
+            <img src="./images/info6.jpg"  height="300px" width="200px">
+        </div>
+    </main>
+    <footer>
+        <div class="logo2">
+            <img src="./images/logo.png">
+        </div>
+        <div class="footerinput">
+        <input placeholder="Did you like this blog?" type="text" >
+        <button>Save!</button>
+        </div>
+        <div class="socialmedia">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        </div>
+    </footer>
+</body>
+</html>
